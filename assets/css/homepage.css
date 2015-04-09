@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Palatino";
+    font-size: 15px;
+
+}
+a{
+    text-decoration: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.main{
+    width :1000px;
+    height: 900px;
+    margin: auto;
+    background-image: url(../images/wallpaper.jpg);
+    border-radius: 5px;
+    box-shadow: 0 -1px 20px 10px #959797;
+}
+.remont{
+    position: relative;
+    bottom: 100px;
+}
+.topdiv{
+    position: relative;
+    bottom:120px;
+	width: 100%;
+    height :120px;
+    border-bottom: 1px solid #FFF;
+    box-shadow: 0 -1px 5px 3px #bbbbbb;
+
+    border-bottom: 1px solid #FFF;
+}
+.fondtop{
+    width: 100%;
+    height: 120px;
+    background-color: #FFF;
+    background: linear-gradient( #959797,#282828);
+    opacity: 0.2;
+
+}
+
+.choiceverre:hover{
+      box-shadow: 0 10px 25px -10px #FFF;
+  }
+.choiceverre{
+
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 90px;
+    float: left;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px -20px #FFF;
+    transition: box-shadow 0.5s;
+
+
+}
+.dec{margin-left: 130px;}
+.m{
+    margin-left:140px;
+}
+
+.arrow{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 50px;
+    line-height: 50px;
+    transition: opacity 0.5s;
+    width: 30px;
+    opacity: 0.3;
+    margin-top: 33px; 
+    float: left;
+}
+.arrow:hover, .arrow:focus{
+ opacity: 1;
+}
+
+.trait{
+position: relative; 
+bottom:370px;   
+height: 1px;
+width: 80%;
+background-color: #FFF;
+border-radius: 50%;
+margin: auto;
+margin-bottom: 50px;
+}
+.main .leftdiv{
+	display: inline-block;
+    float: left;
+	margin-top: 120px;
+	width: 190px;
+	height: 400px;
+     border:1px solid #FFF;
+    box-shadow: inset 0px -10px 5px -10px #FFF;
+        border-bottom-left-radius:30px;
+    border-top-right-radius:40px;
+
+}
+.main .centerdiv{
+	display: inline-block;
+    float: left;
+	margin-top: 0px;
+	width: 606px;
+	height: 800px;
+
+}
+.leftdiv .bla{
+    position: relative;
+    bottom : 380px;
+    margin :25px 0px 0px 40px;
+    font-weight: normal;
+    font-size: 16px;
+    color : #FFF;
+
+}
+.rightdiv .bla{
+    position: relative;
+    bottom : 380px;
+    margin :0px 30px 0px 0px;
+    font-size: 18px;
+    font-weight: normal;
+    color : #FFF;
+
+}
+.Ltitle{
+    position: relative;
+    bottom : 380px;
+    margin :15px 0px 0px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color : #FFF;
+
+}
+.Rtitle{
+    position: relative;
+    bottom : 380px;
+    margin :15px 30px 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color : #FFF;
+
+}
+.leftdiv .blo{
+    position: relative;
+    bottom : 380px;
+    margin :15px 0px 0px 60px;
+    font-weight: normal;
+    color : #FFF;
+
+
+}
+.rightdiv .blo{
+    position: relative;
+    bottom : 380px;
+    margin :15px 25px 0px 0px;
+    font-weight: normal;
+    color : #FFF;
+}
+.rightdiv .mod:hover {
+text-decoration: underline;
+}
+.leftdiv .bla:before {
+    color: #000;
+    content: "» ";
+    font-weight: bold;
+}
+.rightdiv .bla:after {
+    color: #ff4800;;
+    content: " «";
+    font-weight: bold;
+
+}
+.bla:hover{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.leftdiv .blo:hover{
+    text-decoration: underline;
+
+}
+.rightdiv .mod:hover{
+    text-decoration: underline;
+
+}
+
+.rightdiv .mod{ 
+  color:#ADD8E6;
+}
+
+.cont{
+margin-top: 3px;
+
+}
+
+
+.fond{
+    width: 100%;
+    height: 398px;
+    border: 1px solid #FFF;
+    background: linear-gradient( #282828,#959797);
+    opacity: 0.3;
+
+}
+.ss .fond{
+opacity: 0.1;
+}
+.fleft{
+    border-bottom-left-radius:30px;
+    border-top-right-radius:40px;
+        box-shadow: 5px 2px 5px 0px #000;
+}
+.fright{
+    border-bottom-left-radius:30px;
+    border-top-right-radius:40px;
+     box-shadow: -5px 2px 5px 0px #000;
+}
+.rightdiv{
+	display: inline-block;
+	float: left;
+	margin-top: 100px;
+	width: 200px;
+	height: 100px;
+    overflow: hidden;
+    border:1px solid #FFF;
+    border-bottom-left-radius:30px;
+	border-top-right-radius:40px;
+    text-align: right;
+    box-shadow: inset 0px -10px 5px -10px #FFF;
+}
+.rdiv{
+    margin-top: 20px;
+}
+.title{
+	width: 100%;
+	height:100px;
+}
+.verre{
+	margin: 50px auto 0px auto;
+	height: 450px;
+	width: 375px;
+}
+
+.butt{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid #fff;
+    position: relative;
+    bottom : 350px;
+    opacity: 0.5;
+    float: left;
+    margin-left: 44px;
+    transition: opacity 0.5s;
+}
+.butt:hover, .butt:focus{
+    opacity: 1;
+}
+.nomm{
+    position: relative;
+    bottom : 85px;
+    left: 35px;
+    border: 0px;
+    border-radius: 4px;
+    box-shadow:inset 2px 1px 3px #b4b4b4;
+
+}
+
+.ticket{
+        width: 200px;
+    height: 200px;
+    position: relative;
+    bottom:249px;
+    left: 640px;
+}
+.etiquee{
+    width: 200px;
+    height: 200px;
+
+}
+.z{position: relative;
+z-index: 2;
+bottom:102px;
+left: 45px;
+font-size: 22px;
+color:#FFF;
+text-shadow: 0px 0px 2px #FFF;}
